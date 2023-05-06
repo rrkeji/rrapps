@@ -1,0 +1,24 @@
+{
+  "private": true,
+  "author": "rrkeji <rrkeji@163.com>",
+  "scripts": {
+    "dev": "umi dev",
+    "build": "umi build",
+    "postinstall": "umi setup",
+    "setup": "umi setup",
+    "start": "npm run dev"
+  },
+  "dependencies": {
+    "@ant-design/icons": "^5.0.1",
+    "@tauri-apps/api": "^1.3.0",
+    "antd": "^5.4.6",
+    "classnames": "^2.3.2",
+    "umi": "^4.0.67",
+    "uuidv4": "^6.2.13"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.33",
+    "@types/react-dom": "^18.0.11",
+    "typescript": "^5.0.3"
+  }
+}

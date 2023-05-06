@@ -1,0 +1,62 @@
+@import url('./assets/fonts/iconfont.css');
+
+#root {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  border-radius: 8px;
+  border: 1px solid #A9A9A9;
+  user-select: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+
+* {
+  margin: 0;
+  padding: 0 0;
+  box-sizing: border-box;
+}
+
+//自动移滚动条样式
+::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 1em;
+  background-color: rgba(50, 50, 50, .3);
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 1em;
+  background-color: rgba(50, 50, 50, .1);
+}
+
+body {
+  min-width: 900px;
+
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+:global {
+  * {
+    box-sizing: border-box;
+  }
+
+  .ant-modal-body {
+    padding: 0 0;
+  }
+
+  .ant-popover-inner {
+    border-radius: 10px;
+  }
+}
